@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205.515" height="409.185" viewBox="0 0 205.515 409.185">
+  <g id="smartphone-svgrepo-com" transform="translate(-78.505)">
+    <path id="Path_36" data-name="Path 36" d="M283.98,36.838V52.8H79.2V36.838C79.2,16.488,92.661,0,109.277,0H253.9C270.508,0,283.98,16.488,283.98,36.838Z" transform="translate(0)" fill="#484848"/>
+    <path id="Path_37" data-name="Path 37" d="M110.364,354.187H283.98v18.16c0,20.349-13.472,36.838-30.08,36.838H109.277c-16.616,0-30.08-16.488-30.08-36.838v-18.16Z" fill="#484848"/>
+    <path id="Path_38" data-name="Path 38" d="M301.7,149.05v55.773H0L301.686,0l.011,133.253Z" transform="translate(284.02 52.49) rotate(90)" fill="#e2e0d0"/>
+    <path id="Path_39" data-name="Path 39" d="M205.474,301.7H.04L0,0Z" transform="translate(283.98 354.187) rotate(180)" fill="#d3d1c1"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="16.499" cy="16.499" r="16.499" transform="translate(165.021 365.187)"/>
+  </g>
+</svg>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/queries.css">
+
+
+        <title>Responsive landing page</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">PhoneGeek</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#features" class="nav__link">Featuress</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Accessories</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/iphone6plus.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">The iPhone 6 Plus arrived!</h1>
+                        <p class="home__description">Bring a powerful new dimension to iPhone’s revolutionary Multi-Touch™ interface with 3D Touch</p>
+                        <a href="#" class="button">Buy now</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== phablet ==========-->
+            <section class="phablet section bd-container">
+                <div class="phablet__container bd-grid">
+                    <div class="phablet__data">
+                        <h2 class="section-title-center">"Phablet" is the new term</h2>
+                        <p class="phablet__description">A jumbo smartphone with a 5.5-inch diagonal display</p>
+                        <a href="#" class="button">Buy now</a>
+                    </div>
+
+                    <div class="phablet__img">
+                        <img src="assets/img/iphone6plus2.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== features ==========-->
+            <section class="features section bd-container" id="features">
+                <h2 class="section-title">New features <br> for your iPhone</h2>
+                <div class="features__container bd-grid">
+                    <div class="features__data">
+                        <img src="assets/img/display.svg" alt="" class="features__img">
+                        <h3 class="features__title">5.5" <br> 1080x1920 pixels</h3>
+                        <a href="#" class="button button-link">Read more</a>
+                    </div>
+
+                    <div class="features__data">
+                        <img src="assets/img/stick.svg" alt="" class="features__img">
+                        <h3 class="features__title">12MP <br> 2160p</h3>
+                        <a href="#" class="button button-link">Read more</a>
+                    </div>
+
+                    <div class="features__data">
+                        <img src="assets/img/cpu.svg" alt="" class="features__img">
+                        <h3 class="features__title">2GB RAM <br> Apple A9</h3>
+                        <a href="#" class="button button-link">Read more</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+                <h2 class="section-title">New iPhone <br> Accessories</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <img src="assets/img/cable.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Lightning to USB Cable</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$29.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/headphonejack.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Lightning to Headphone Jack</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$19.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+                    
+                    <div class="accessory__content">
+                        <img src="assets/img/case.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">AluFrame Case for iPhone 6 Plus</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$39.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/case2.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Leather Case for iPhone 6 Plus</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$20.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/glass.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Tempered Glass for iPhone 6 Plus</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$9.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/lens.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Camera Lens Protector for iPhone 6 Plus</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$5.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--========== Signup GIFT ==========-->
+            <section class="signup section">
+                <div class="signup__container bd-container bd-grid">
+                    <div class="signup__content">
+                        <h2 class="section-title-center signup__title">Sign up for newsletter</h2>
+                        <p class="signup__description">Get updates and special offers from PhoneGeek!</p>
+                        <form action="">
+                            <div class="signup__direction">
+                                <input type="text" placeholder="Your email address" class="signup__input">
+                                <a href="#" class="button">Sign up</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="signup__img">
+                        <img src="assets/img/newsletter.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+             <!--   <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">Christmas Gift</a>
+                    </h3>
+                    <p class="footer__description">I sent a gift and it gives <br> happiness</p>
+                </div>   -->
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Orders & Returns</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Order Status </a></li>
+                        <li><a href="#" class="footer__link">Shipping, Desliovery & Store Pickup</a></li>
+                        <li><a href="#" class="footer__link">Return & Exchange Promise</a></li>
+                        <li><a href="#" class="footer__link">Buying Help</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">About PhoneGeek</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Corporate Information</a></li>
+                        <li><a href="#" class="footer__link">Schedule a Service</a></li>
+                        <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer__link">Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>                    
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2019 PhoneGeek. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
